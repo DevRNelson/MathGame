@@ -60,7 +60,8 @@ for (i=0;i<=2;i++)
 }
 
 
-
+ alert("Welcome to Round 2, in this round we will be subtracting numbers");
+ 
 function round2() {
   var MATH1 = (Math.floor(Math.random() * 25));
   var MATH2 = (Math.floor(Math.random() * 9));
@@ -102,7 +103,6 @@ round1();
 
 for (i=0;i<=2;i++)
 {
-    round1();
+    round2();
 }
 </script>
-
